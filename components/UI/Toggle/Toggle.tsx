@@ -5,7 +5,7 @@ export const Toggle = () => {
   return (
     <HStack>
         <SunIcon />
-        <Switch colorScheme={'blue'}/>
+        <Switch colorScheme={'blue'} defaultChecked/>
         <MoonIcon />
     </HStack>
   )
