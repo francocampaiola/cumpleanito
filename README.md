@@ -1,38 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cumpleanito
 
-## Getting Started
+## ¿Qué es?
+Cumpleanito es un proyecto realizado con Next.js, Express.js y MongoDB para cargar los cumpleaños de tus amigos y familiares y que puedas verificar cuando se acerque el día de su cumpleaños. Está desarrollado en TypeScript para mejorar la comprensión del código. Para los componentes se utilizó Chakra UI.
 
-First, run the development server:
+## ¿Cómo funciona?
+La aplicación cuenta con un sistema de autenticación, en donde una vez que te logueas con tu cuenta, puedes agregar los cumpleaños de tus amigos y familiares, y mediante la aplicación podrás ver cuando se acerque el día de su cumpleaños.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## ¿Qué tiene?
+- Sistema de autenticación
+- Carga de cumpleaños
+- Edición de cumpleaños
+- Eliminación de cumpleaños
+- Verificación de cumpleaños
+
+## Requerimientos
+- Node.js
+- MongoDB
+
+## Instalación
+
+### Clonar el repositorio
+```
+git clone https://github.com/francocampaiola/cumpleanito
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Instalación de paquetes utilizados
+```
+yarn install
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<!-- ## Editar el archivo .env.development para desarrollo
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```
+DB_HOST=localhost
+DB_PORT=27017
+DB_USER=
+DB_PASS=
+DB_NAME=
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+PORT=3000
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+ACCESS_KEY_MP=
 
-## Learn More
+PASSWORD_EDITOR=nuestra_password
+URL=http://localhost:3000
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Para producción: crear el archivo .env con su configuración
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+DB_HOST=localhost
+DB_PORT=27017
+DB_USER=
+DB_PASS=
+DB_NAME=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+PORT=3000
 
-## Deploy on Vercel
+ACCESS_KEY_MP=
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+PASSWORD_EDITOR=nuestra_password
+URL=http://localhost:3000
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+``` -->
+
+## ¡Algo no anda!
+Podés crear un ```issue``` acá en el repositorio de GitHub
+
+## Para correr el entorno de desarrollo
+```
+yarn dev
+```
+
+## Para correr el entorno de producción
+```
+yarn build
+yarn start
+```
+
+## ¿Cómo contribuir?
+Podés hacer un ```fork``` del repositorio y luego crear un ```pull request``` con tus cambios.
+
+## Licencia
+MIT
