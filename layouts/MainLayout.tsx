@@ -1,6 +1,6 @@
-import { Container } from "@chakra-ui/react"
-import { Navbar } from "components/UI/Navbar"
 import { FC } from "react"
+import { Navbar } from "components/UI/Navbar"
+import { Container } from "@chakra-ui/react"
 
 interface Props {
     children: React.ReactNode
