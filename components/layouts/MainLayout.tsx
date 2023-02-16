@@ -1,8 +1,7 @@
 import { FC } from "react"
-import { Navbar } from "components/UI/Navbar"
-import { Footer } from "components/UI/Footer"
+import { Navbar } from "components/ui/Navbar"
+import { Footer } from "components/ui/Footer"
 import { Container } from "@chakra-ui/react"
-import { link } from "fs"
 
 interface Props {
     children: React.ReactNode

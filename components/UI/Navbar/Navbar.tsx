@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import Link from 'next/link'
-import { Toggle } from '../Toggle'
+import { Toggle } from 'components/ui/Toggle'
 import { Box, Button, Flex, HStack, Image } from '@chakra-ui/react'
 
 interface Props {

@@ -1,5 +1,5 @@
-import { Button, Container, Heading, Input, Text, VStack } from '@chakra-ui/react'
-import { MainLayout } from 'layouts'
+import { Button, Container, Heading, Input, VStack } from '@chakra-ui/react'
+import { MainLayout } from 'components/layouts'
 
 const Register = () => {
     return (

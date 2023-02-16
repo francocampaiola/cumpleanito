@@ -1,4 +1,4 @@
-import { MainLayout } from "layouts";
+import { MainLayout } from "components/layouts";
 import {
   Box,
   Button,
