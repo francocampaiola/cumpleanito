@@ -29,6 +29,12 @@ export const Navbar: FC<Props> = ({ textButton, variantButton, linkButton, displ
                     </Link>
                 </Box>
                 <HStack>
+                    <Link href={'/explore'}>
+                        <Button colorScheme={'red'} size={'sm'}>Explorar</Button>
+                    </Link>
+                    <Link href={'/manage'}>
+                        <Button colorScheme={'red'} size={'sm'}>Administrar</Button>
+                    </Link>
                     <Link href={linkButton}>
                         <Button display={displayButton} variant={variantButton} colorScheme={'blue'} size={'sm'}>{textButton}</Button>
                     </Link>

@@ -12,7 +12,7 @@ export const FriendCard = () => {
                         <Text fontSize={'sm'}>Franco Campaiola</Text>
                     </Center>
                     <HStack>
-                        <Button colorScheme={'blue'} size={'xs'}>Editar</Button>
+                        <Button colorScheme={'yellow'} size={'xs'}>Editar</Button>
                         <Button colorScheme={'red'} size={'xs'}>Eliminar</Button>
                     </HStack>
                 </Stack>
