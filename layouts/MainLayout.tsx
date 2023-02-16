@@ -1,6 +1,7 @@
 import { FC } from "react"
 import { Navbar } from "components/UI/Navbar"
 import { Container } from "@chakra-ui/react"
+import { Footer } from "components/UI/Footer"
 
 interface Props {
     children: React.ReactNode
@@ -17,6 +18,7 @@ export const MainLayout: FC<Props> = ({ children }) => {
             >
                 {children}
             </Container>
+            <Footer />
         </Container>
     )
 }
