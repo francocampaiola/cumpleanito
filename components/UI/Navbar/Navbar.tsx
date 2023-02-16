@@ -1,8 +1,16 @@
-import { Box, Button, Flex, HStack, Image } from '@chakra-ui/react'
+import { FC } from 'react'
 import Link from 'next/link'
 import { Toggle } from '../Toggle'
+import { Box, Button, Flex, HStack, Image } from '@chakra-ui/react'
 
-export const Navbar = () => {
+interface Props {
+    textButton: string,
+    variantButton: string,
+    linkButton: string,
+    displayButton: string
+}
+
+export const Navbar: FC<Props> = ({ textButton, variantButton, linkButton, displayButton }) => {
     return (
         <Box
             marginTop={'15px'}
@@ -21,7 +29,9 @@ export const Navbar = () => {
                     </Link>
                 </Box>
                 <HStack>
-                    <Button colorScheme={'blue'} size={'sm'}>Ingresar</Button>
+                    <Link href={linkButton}>
+                        <Button display={displayButton} variant={variantButton} colorScheme={'blue'} size={'sm'}>{textButton}</Button>
+                    </Link>
                     <Toggle />
                 </HStack>
             </Flex>

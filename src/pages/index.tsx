@@ -1,3 +1,4 @@
+import { MainLayout } from "layouts";
 import {
   Box,
   Button,
@@ -13,12 +14,11 @@ import {
   Text,
   VStack
 } from "@chakra-ui/react";
-import { MainLayout } from "layouts";
 
 export default function Home() {
   return (
     <>
-      <MainLayout>
+      <MainLayout textButton={'Ingresar'} variantButton={'solid'} linkButton={'/login'}>
         <Container maxW={'5xl'} marginTop={'80px'}>
           <VStack spacing={'100px'}>
             <VStack spacing={'50px'} width={'100%'}>

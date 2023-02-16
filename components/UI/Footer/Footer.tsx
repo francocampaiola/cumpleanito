@@ -1,5 +1,4 @@
 import { Box, Flex, HStack, Spacer, Text } from '@chakra-ui/react'
-import React from 'react'
 
 export const Footer = () => {
     const year = new Date().getFullYear();
