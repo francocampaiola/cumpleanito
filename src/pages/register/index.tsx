@@ -9,9 +9,9 @@ const Register = () => {
             variantButton=''
             linkButton='/'
         >
-            <Container maxW={'5xl'}>
-                <VStack marginTop={'10%'} spacing={'5%'} marginBottom={'36%'}>
-                    <Heading fontSize={'3xl'}>Registrarse</Heading>
+            <Container maxW={'5xl'} h={'2xl'}>
+                <VStack spacing={'5%'}>
+                    <Heading fontSize={'3xl'} marginTop={'80px'}>Registrarse</Heading>
                     <VStack spacing={10} w={'50%'}>
                         <VStack w={'100%'}>
                             <Input size={'md'} placeholder='Correo electrónico o nombre de usuario'></Input>

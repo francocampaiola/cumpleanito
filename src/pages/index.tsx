@@ -18,12 +18,12 @@ import {
 export default function Home() {
   return (
     <>
-      <MainLayout textButton={'Ingresar'} variantButton={'solid'} linkButton={'/login'}>
-        <Container maxW={'5xl'} marginTop={'80px'}>
+      <MainLayout displayButton={''} textButton={'Ingresar'} variantButton={'solid'} linkButton={'/login'}>
+        <Container maxW={'5xl'} h={'2xl'}>
           <VStack spacing={'100px'}>
             <VStack spacing={'50px'} width={'100%'}>
               <VStack>
-                <Heading fontFamily={'sans-serif'}>Celebrar sin olvidar</Heading>
+                <Heading fontFamily={'sans-serif'} marginTop={'80px'}>Celebrar sin olvidar</Heading>
                 <Text fontFamily={'body'} fontSize={'sm'} maxW={'md'} textAlign={'center'}>Cumpleanito es la plataforma perfecta para recordar y celebrar los cumpleaños de tus amigos y seres queridos.</Text>
               </VStack>
               <VStack>

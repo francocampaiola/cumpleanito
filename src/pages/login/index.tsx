@@ -9,9 +9,9 @@ const Login = () => {
             variantButton={'outline'}
             linkButton='/register'
         >
-            <Container maxW={'5xl'}>
-                <VStack marginTop={'10%'} spacing={'5%'} marginBottom={'28%'}>
-                    <Heading fontSize={'3xl'}>Ingresar</Heading>
+            <Container maxW={'5xl'} h={'2xl'}>
+                <VStack spacing={'5%'}>
+                    <Heading fontSize={'3xl'} marginTop={'80px'}>Ingresar</Heading>
                     <VStack spacing={10} w={'50%'}>
                         <VStack w={'100%'}>
                             <Input size={'md'} placeholder='Nombre de usuario'></Input>

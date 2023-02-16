@@ -10,7 +10,7 @@ const Explore = () => {
             variantButton={'outline'}
             linkButton='/'
         >
-            <Container maxW={'5xl'}>
+            <Container maxW={'5xl'} h={'2xl'}>
                 <VStack spacing={2} marginBottom={'4%'}>
                     <VStack marginBottom={'5%'} marginTop={'10%'} spacing={'1%'}>
                         <Heading fontSize={'3xl'}>Hola de nuevo, Franco</Heading>

@@ -25,7 +25,7 @@ export const Navbar: FC<Props> = ({ textButton, variantButton, linkButton, displ
             >
                 <Box>
                     <Link href={'/'}>
-                        <Image src='Logo.svg' height={25} width={10} />
+                        <Image src='/Logo.svg' height={25} width={10} />
                     </Link>
                 </Box>
                 <HStack>
