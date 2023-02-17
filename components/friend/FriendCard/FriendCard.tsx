@@ -17,7 +17,6 @@ export const FriendCard = () => {
                     </HStack>
                 </Stack>
             </CardBody>
-            <Divider />
         </Card>
     )
 }

@@ -20,7 +20,7 @@ const Manage = () => {
                     <Flex w={'2xl'} p={2}>
                         <Spacer />
                         <Link href={'/manage/add-friend'}>
-                            <Button size={'xs'} bgColor={'green.600'} textColor={'white'}>Agregar amigos</Button>
+                            <Button size={'xs'} bgColor={'green.600'} textColor={'white'}>Agregar amigo</Button>
                         </Link>
                     </Flex>
                     <Friends />

@@ -1,4 +1,4 @@
-import { Avatar, Box, Container, Heading, HStack, Text, VStack } from '@chakra-ui/react'
+import { Avatar, Box, Button, Container, Heading, HStack, Input, Spacer, Text, VStack } from '@chakra-ui/react'
 import { MainLayout } from 'components/layouts'
 import React from 'react'
 
@@ -11,28 +11,30 @@ const AddFriend = () => {
             linkButton='/'
         >
             <Container maxW={'5xl'} h={'2xl'}>
-                {/* <VStack marginTop={'10%'} spacing={'5%'} marginBottom={'36%'}>
-                    <Heading fontSize={'3xl'}>Agregar amigo</Heading>
-                    <VStack spacing={10} w={'50%'}>
-                        <VStack w={'100%'}>
-                            <Input size={'md'} placeholder='Correo electrónico o nombre de usuario'></Input>
-                            <Input size={'md'} placeholder='Contraseña'></Input>
-                        </VStack>
-                        <Button colorScheme={'blue'}>Continuar</Button>
-                    </VStack>
-                </VStack> */}
-                <VStack>
+                <VStack spacing={'100px'}>
                     <Heading fontSize={'3xl'} marginTop={'150px'}>Agregar amigo</Heading>
-                    <HStack justifyContent={'center'} spacing={5}>
+                    <HStack justifyContent={'center'} spacing={'50px'}>
                         <Box>
-                            <Avatar />
+                            <Avatar size={'2xl'} name={'Nombre Apellido'} />
                         </Box>
                         <Box>
-                            <VStack>
-                                <Text>Nombre</Text>
-                                <Text>Fecha de nacimiento</Text>
-                            </VStack>
+                                <Box marginBottom={'15px'}>
+                                        <Text textAlign={'left'}>Nombre</Text>
+                                        <Input required placeholder='Nombre Apellido'></Input>
+                                </Box>
+                                <Box>
+                                        <Text>Fecha de nacimiento</Text>
+                                        <Input required type={'date'}></Input>
+                                </Box>
                         </Box>
+                    </HStack>
+                    <HStack>
+                        <Button>
+                            Cancelar
+                        </Button>
+                        <Button colorScheme={'green'}>
+                            Agregar amigo
+                        </Button>
                     </HStack>
                 </VStack>
             </Container>
