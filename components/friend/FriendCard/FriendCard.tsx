@@ -1,6 +1,10 @@
-import { Card, CardBody, Center, Avatar, Stack, Button, Divider, CardFooter, Text, HStack } from '@chakra-ui/react'
+import Link from 'next/link'
+import { Card, CardBody, Center, Avatar, Stack, Button, Divider, CardFooter, Text, HStack, useDisclosure, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay } from '@chakra-ui/react'
 
 export const FriendCard = () => {
+    
+    const { isOpen, onOpen, onClose } = useDisclosure()
+
     return (
         <Card maxW='sm'>
             <CardBody>
@@ -12,8 +16,27 @@ export const FriendCard = () => {
                         <Text fontSize={'sm'}>Franco Campaiola</Text>
                     </Center>
                     <HStack>
-                        <Button colorScheme={'yellow'} size={'xs'}>Editar</Button>
-                        <Button colorScheme={'red'} size={'xs'}>Eliminar</Button>
+                        <Link href={'/manage/edit-friend'}>
+                            <Button colorScheme={'yellow'} size={'xs'}>Editar</Button>
+                        </Link>
+                        <Button colorScheme={'red'} size={'xs'} onClick={onOpen}>Eliminar</Button>
+                        <Modal isOpen={isOpen} size={'xs'} onClose={onClose} isCentered>
+                            <ModalOverlay />
+                            <ModalContent>
+                                <ModalHeader>Eliminar amigo</ModalHeader>
+                                <ModalCloseButton />
+                                <ModalBody>
+                                    <Text>¿Estás seguro? Esta operación no tiene deshacer.</Text>
+                                </ModalBody>
+
+                                <ModalFooter>
+                                    <Button colorScheme='gray' mr={3} onClick={onClose}>
+                                        Cancelar
+                                    </Button>
+                                    <Button colorScheme={'red'}>Eliminar</Button>
+                                </ModalFooter>
+                            </ModalContent>
+                        </Modal>
                     </HStack>
                 </Stack>
             </CardBody>

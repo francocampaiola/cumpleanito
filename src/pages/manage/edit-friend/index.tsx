@@ -1,7 +1,7 @@
 import { MainLayout } from 'components/layouts'
-import { Avatar, Box, Button, Container, Heading, HStack, Input, Text, VStack } from '@chakra-ui/react'
+import { Avatar, Box, Button, Container, Heading, HStack, Input, Spacer, Text, VStack } from '@chakra-ui/react'
 
-const AddFriend = () => {
+const EditFriend = () => {
     return (
         <MainLayout
             displayButton={''}
@@ -11,7 +11,7 @@ const AddFriend = () => {
         >
             <Container maxW={'5xl'} h={'2xl'}>
                 <VStack spacing={'100px'}>
-                    <Heading fontSize={'3xl'} marginTop={'150px'}>Agregar amigo</Heading>
+                    <Heading fontSize={'3xl'} marginTop={'150px'}>Editar amigo</Heading>
                     <HStack justifyContent={'center'} spacing={'50px'}>
                         <Box>
                             <Avatar size={'2xl'} name={'Nombre Apellido'} />
@@ -32,7 +32,7 @@ const AddFriend = () => {
                             Cancelar
                         </Button>
                         <Button colorScheme={'green'}>
-                            Agregar amigo
+                            Guardar cambios
                         </Button>
                     </HStack>
                 </VStack>
@@ -41,4 +41,4 @@ const AddFriend = () => {
     )
 }
 
-export default AddFriend
+export default EditFriend
