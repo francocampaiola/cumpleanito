@@ -1,21 +1,16 @@
 # Cumpleanito
 
 ## ¿Qué es?
-Cumpleanito es un proyecto realizado con Next.js, Express.js y MongoDB para cargar los cumpleaños de tus amigos y familiares y que puedas verificar cuando se acerque el día de su cumpleaños. Está desarrollado en TypeScript para mejorar la comprensión del código. Para los componentes se utilizó Chakra UI.
+Cumpleanito es un proyecto realizado con Next.js para cargar los cumpleaños de tus amigos y familiares y que puedas verificar cuando se acerque el día de su cumpleaños. Está desarrollado en TypeScript para mejorar la comprensión del código. Para los componentes se utilizó Chakra UI.
 
 ## ¿Cómo funciona?
-La aplicación cuenta con un sistema de autenticación, en donde una vez que te logueas con tu cuenta, puedes agregar los cumpleaños de tus amigos y familiares, y mediante la aplicación podrás ver cuando se acerque el día de su cumpleaños.
+La aplicación aún no cuenta con un sistema de autenticación, pero la idea es que a futuro lo tenga, en donde una vez que te logueas con tu cuenta, puedes agregar los cumpleaños de tus amigos y familiares, y mediante la aplicación podrás ver cuando se acerque el día de su cumpleaños.
 
 ## ¿Qué tiene?
-- Sistema de autenticación
-- Carga de cumpleaños
-- Edición de cumpleaños
-- Eliminación de cumpleaños
 - Verificación de cumpleaños
 
 ## Requerimientos
 - Node.js
-- MongoDB
 
 ## Instalación
 

@@ -18,11 +18,6 @@ export const Footer = () => {
                 padding={'1rem'}
             >
                 <HStack>
-                    <Text fontSize={'sm'}>FAQs</Text>
-                    <Text fontSize={'sm'}>|</Text>
-                    <Text fontSize={'sm'}>Política de privacidad</Text>
-                    <Text fontSize={'sm'}>|</Text>
-                    <Text fontSize={'sm'}>Términos y condiciones</Text>
                 </HStack>
                 <Spacer />
                 <HStack>

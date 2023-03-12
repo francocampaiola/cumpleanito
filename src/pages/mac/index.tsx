@@ -2,7 +2,7 @@ import { Birthdays } from 'components/birthday/birthdays'
 import { MainLayout } from 'components/layouts'
 import { Container, Heading, Text, VStack } from '@chakra-ui/react'
 
-const Explore = () => {
+const Mac = () => {
     return (
         <MainLayout
             displayButton={''}
@@ -13,7 +13,7 @@ const Explore = () => {
             <Container maxW={'5xl'} h={'2xl'}>
                 <VStack spacing={2} marginBottom={'4%'}>
                     <VStack marginBottom={'5%'} marginTop={'10%'} spacing={'1%'}>
-                        <Heading fontSize={'3xl'}>Hola de nuevo, Franco</Heading>
+                        <Heading fontSize={'3xl'}>Hola de nuevo</Heading>
                         <Text>Te echamos de menos</Text>
                     </VStack>
                     <VStack spacing={'5%'}>
@@ -26,4 +26,4 @@ const Explore = () => {
     )
 }
 
-export default Explore
+export default Mac
