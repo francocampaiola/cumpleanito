@@ -5,18 +5,14 @@ import { Container } from "@chakra-ui/react"
 
 interface Props {
     children: React.ReactNode
-    linkButton: string,
-    variantButton: string,
-    textButton: string,
-    displayButton: string
 }
 
-export const MainLayout: FC<Props> = ({ children, linkButton, textButton, variantButton, displayButton }) => {
+export const MainLayout: FC<Props> = ({ children }) => {
     return (
         <Container
             maxW={'5xl'}
         >
-            <Navbar textButton={textButton} linkButton={linkButton} variantButton={variantButton} displayButton={displayButton} />
+            <Navbar />
             <Container
                 maxW={'5xl'}
             >
