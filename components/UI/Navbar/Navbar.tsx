@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { Toggle } from 'components/ui/Toggle'
 import { Box, Flex, HStack, Image } from '@chakra-ui/react'
 
@@ -16,9 +15,7 @@ export const Navbar = () => {
                 padding={'1rem'}
             >
                 <Box>
-                    <Link href={'/'}>
-                        <Image src='/Logo.svg' height={25} width={10} />
-                    </Link>
+                    <Image src='/Logo.svg' height={25} width={10} />
                 </Box>
                 <HStack>
                     <Toggle />
