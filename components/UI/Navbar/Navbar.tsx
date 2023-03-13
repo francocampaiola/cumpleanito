@@ -1,5 +1,5 @@
 import { Box, Flex, HStack, Image } from '@chakra-ui/react'
-import { Toggle } from '../Toggle'
+import { Toggle } from '../../ui/Toggle'
 
 export const Navbar = () => {
     return (
