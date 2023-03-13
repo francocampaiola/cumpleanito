@@ -1,6 +1,6 @@
+import Link from "next/link";
 import { FC } from "react"
 import { Avatar, Button, Card, CardBody, CardFooter, Center, Divider, Stack, Text } from "@chakra-ui/react"
-import Link from "next/link";
 
 interface Props {
     name: string,
