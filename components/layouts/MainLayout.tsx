@@ -1,6 +1,6 @@
 import { FC } from "react"
-import { Navbar } from "components/ui/Navbar"
-import { Footer } from "components/ui/Footer"
+import { Navbar } from "components/ui/Navbar/Navbar"
+import { Footer } from "components/ui/Footer/Footer"
 import { Container } from "@chakra-ui/react"
 
 interface Props {
