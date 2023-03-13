@@ -7,7 +7,7 @@ export const Birthdays = () => {
   const currentYear = today.getFullYear();
   const sortedBirthdays = birthdays
     .map((bday) => {
-      const [day, month] = bday.birthday.split("/");
+      const [day, month] = bday.birthday.split("/").map(Number);
       const birthdate = new Date(currentYear, month - 1, day);
       if (birthdate < today) {
         birthdate.setFullYear(currentYear + 1);
