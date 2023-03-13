@@ -33,7 +33,7 @@ export const Birthdays = () => {
 
 
   return (
-    <Grid templateColumns="repeat(4, 1fr)" gap={5}>
+    <Grid templateColumns={{'md': "repeat(4, 1fr)", 'base': "repeat(2, 1fr)"}} gap={5}>
       {sortedList.map((bday) => (
         <BirthdayCard key={bday.id} {...bday} />
       ))}

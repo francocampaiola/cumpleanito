@@ -39,9 +39,9 @@ export const BirthdayCard: FC<Props> = ({ name, birthday, contact }) => {
                             </Link>
                         </Center>
                     ) : (
-                        <Text fontSize={'xs'}>
-                            {daysDiff > 0 ? `${daysDiff} días hasta  cumpleaños` : '¡El cumpleaños es hoy!'}
-                        </Text>
+                            <Text fontSize={'xs'} align={'center'}>
+                                {daysDiff > 0 ? `${daysDiff} días hasta su cumpleaños` : '¡El cumpleaños es hoy!'}
+                            </Text>
                     )}
                 </Stack>
             </CardBody>
@@ -53,7 +53,7 @@ export const BirthdayCard: FC<Props> = ({ name, birthday, contact }) => {
                     </Text>
                 </Center>
             </CardFooter>
-        </Card>
+        </Card >
     )
 }
 
