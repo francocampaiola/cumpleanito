@@ -15,7 +15,7 @@ export const Navbar = () => {
                 padding={'1rem'}
             >
                 <Box>
-                    <Image src='/Logo.svg' height={25} width={10} />
+                    <Image src='/Logo.svg' alt='logo' height={25} width={10} />
                 </Box>
                 <HStack>
                     <Toggle />
