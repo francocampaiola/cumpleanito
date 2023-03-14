@@ -1,5 +1,5 @@
 import { Grid } from "@chakra-ui/react";
-import { BirthdayCard } from "../BirthdayCard";
+import { BirthdayCard } from "../BirthdayCard/BirthdayCard";
 import birthdays from "../../../constants/birthdays";
 
 export const Birthdays = () => {

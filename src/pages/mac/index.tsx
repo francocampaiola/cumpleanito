@@ -1,5 +1,5 @@
-import { Birthdays } from 'components/birthday/birthdays'
-import { MainLayout } from 'components/layouts'
+import { Birthdays } from 'components/birthday/birthdays/Birthdays'
+import { MainLayout } from 'components/layouts/MainLayout'
 import { Container, Heading, Text, VStack } from '@chakra-ui/react'
 
 const Mac = () => {
