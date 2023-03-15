@@ -57,7 +57,7 @@ export interface Birthday {
     {
       id: 9,
       name: "Jose Muñiz",
-      birthday: "09/09/1993",
+      birthday: "05/09/1993",
       contact: "5491130942905",
     },
     {
@@ -69,7 +69,7 @@ export interface Birthday {
     {
       id: 11,
       name: "Santiago Peralta",
-      birthday: "07/04/1997",
+      birthday: "08/06/1997",
       contact: "5491134644614",
     },
     {
