@@ -1,6 +1,6 @@
 # Cumpleanito
 
-## ¿Qué es?
+<!-- ## ¿Qué es?
 Cumpleanito es un proyecto realizado con Next.js para cargar los cumpleaños de tus amigos y familiares y que puedas verificar cuando se acerque el día de su cumpleaños. Está desarrollado en TypeScript para mejorar la comprensión del código. Para los componentes se utilizó Chakra UI.
 
 ## ¿Cómo funciona?
@@ -10,7 +10,7 @@ La aplicación aún no cuenta con un sistema de autenticación, pero la idea es 
 - Verificación de cumpleaños
 
 ## Requerimientos
-- Node.js
+- Node.js -->
 
 ## Instalación
 
@@ -21,7 +21,7 @@ git clone https://github.com/francocampaiola/cumpleanito
 
 ## Instalación de paquetes utilizados
 ```
-yarn install
+npm install
 ```
 
 <!-- ## Editar el archivo .env.development para desarrollo
@@ -64,13 +64,13 @@ Podés crear un ```issue``` acá en el repositorio de GitHub
 
 ## Para correr el entorno de desarrollo
 ```
-yarn dev
+npm run dev
 ```
 
 ## Para correr el entorno de producción
 ```
-yarn build
-yarn start
+npm run build
+npm run start
 ```
 
 ## ¿Cómo contribuir?

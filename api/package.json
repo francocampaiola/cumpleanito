@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API para la SPA cumpleanito",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francocampaiola/cumpleanito.git"
+  },
+  "author": "Franco Campaiola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/francocampaiola/cumpleanito/issues"
+  },
+  "homepage": "https://github.com/francocampaiola/cumpleanito#readme"
+}
